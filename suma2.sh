@@ -10,4 +10,4 @@ suma=$((num1 + num2))
 resta=$((num1 - num2))
 
 echo "La suma de $num1 y $num2 es: $suma"
-echo "La resta de $suma menos $num3 es: $resta"
+echo "La resta de $num1 menos $num2 es: $resta"
