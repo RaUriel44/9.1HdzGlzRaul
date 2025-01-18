@@ -1,31 +1,13 @@
 #!/bin/bash
 
-# Script para realizar operaciones básicas (suma y resta) con dos números ingresados por el usuario.
-
-# Solicitar el primer número
-echo -n "Ingresa el primer número: "
+echo -n "ingresa el primer numero: "
 read num1
 
-# Verificar que el primer número sea válido
-if ! [[ "$num1" =~ ^-?[0-9]+$ ]]; then
-  echo "Error: El valor ingresado no es un número válido."
-  exit 1
-fi
-
-# Solicitar el segundo número
-echo -n "Ingresa el segundo número: "
+echo -n "ingresa el segundo número: "
 read num2
 
-# Verificar que el segundo número sea válido
-if ! [[ "$num2" =~ ^-?[0-9]+$ ]]; then
-  echo "Error: El valor ingresado no es un número válido."
-  exit 1
-fi
-
-# Realizar las operaciones
 suma=$((num1 + num2))
 resta=$((num1 - num2))
 
-# Mostrar los resultados
 echo "La suma de $num1 y $num2 es: $suma"
-echo "La resta de $num1 menos $num2 es: $resta"
+echo "La resta de $suma menos $num3 es: $resta"
