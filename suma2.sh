@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo-n "ingresa el primer numero: "
+echo -n "ingresa el primer numero: "
 read num1
 
 echo -n "ingresa el segundo número: "
