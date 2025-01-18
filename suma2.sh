@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo -n "ingresa el primer numero: "
+echo -n "Ingresa el primer número: "
 read num1
 
-echo -n "ingresa el segundo número: "
+echo -n "Ingresa el segundo número: "
 read num2
 
 suma=$((num1 + num2))
