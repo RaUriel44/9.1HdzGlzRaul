@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  inventario-web:
+    build: .
+    ports:
+      - "5050:5000"
